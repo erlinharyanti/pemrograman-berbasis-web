@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabel</title>
+    </head>
+
+    <body>
+        <h1>Membuat Tabel</h1>
+        <table border="1">
+        <!-- tr, baris -->
+        <!-- td, data -->
+        <!-- th, header -->
+        <h4>Tabel Standard</h4>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        </table>
+
+        <h4>Dengan Header</h4>
+        <table border="1">
+            <tr>
+                <th>Senin</th>
+                <td>10.00</td>
+                <td>12.00</td>
+                <td>14.00</td>
+            </tr>
+            <tr>
+                <th>Selasa</th>
+                <td>10.00</td>
+                <td>12.00</td>
+                <td>14.00</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <th>Senin</th>
+            <th>Selasa</th>
+            <tr>
+                <td>10.00</td>
+                <td>11.00</td>
+            </tr>
+            <tr>
+                <td>10.00</td>
+                <td>11.00</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <th></th>
+            <th>Senin</th>
+            <tr>
+                <th>10.00</th>
+                <td>berangkat sekolah</td>
+            </tr>
+            <tr>
+                <th>11.00</th>
+                <td>makan siang</td>
+            </tr>
+        </table>
+
+        <h4>Alokasi Kolom</h4>
+        <table border="1">
+            <th></th>
+            <th>Senin</th>
+            <th>Selasa</th>
+            <tr>
+                <th>10.00</th>
+                <td>berangkat sekolah</td>
+                <td>berangkat sekolah</td>
+            </tr>
+            <tr>
+                <th rowspan="2">12.00</th>
+                <td colspan="2">makan siang</td>
+            </tr>
+            <tr>
+                <td colspan="2">Shalat dzuhur</td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Mengatur ukuran gambar dalam card agar seragam */
+        .card-img-top {
+            height: 200px; /* Menentukan tinggi gambar */
+            object-fit: cover; /* Menyesuaikan gambar agar tidak terdistorsi */
+        }
+        .card-title {
+        margin-bottom: 0.7rem; /* Memberikan jarak antara judul dan nama penulis */
+        }
+        .card-text {
+        margin-bottom: 0.7rem;
+        font-size: 0.875rem; /* Sesuaikan ukuran font */
+        color: #6c757d; /* Warna teks agar lebih mirip dengan contoh */
+        }
+        .description {
+        font-size: 0.9rem; /* Sesuaikan ukuran */
+        line-height: 1.6; /* Menyesuaikan keterbacaan */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar untuk navigasi -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <!-- Logo SVG yang telah diberikan -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="me-2" width="30" height="30">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
+                </svg>
+                Keajaiban Arsitektur Dunia
+            </a>
+            
+            <div>
+                <!-- Link navigasi -->
+                <a class="nav-link d-inline p-2 text-primary" href="#">Home</a>
+                <a class="nav-link d-inline p-2" href="#">About</a>
+                <a class="nav-link d-inline p-2" href="contactme.html">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Container utama untuk konten -->
+    <div class="container mt-4">
+        <!-- Baris Pertama -->
+        <div class="row g-4">
+            <!-- Kolom pertama -->
+            <div class="col-md-4">
+                <div class="card mx-2">
+                    <!-- Gambar dari folder images -->
+                    <img src="Colosseum.jpg" class="card-img-top" alt="Colosseum">
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Colosseum: Arena Gladiator yang Legendaris</h5>
+                        <p class="card-text">Erlin Haryanti | Posted on 13 March 2025</p>
+                        <p class="description">Saksi bisu pertarungan gladiator, Colosseum adalah ikon kejayaan Romawi yang masih berdiri kokoh hingga kini.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kolom kedua -->
+            <div class="col-md-4">
+                <div class="card mx-2">
+                    <img src="tajmahal.jpg" class="card-img-top" alt="TajMahal">
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Taj Mahal: Sebuah Simbol Cinta Abadi</h5>
+                        <p class="card-text">Erlin Haryanti | Posted on 13 March 2025</p>
+                        <p class="description">Dibangun sebagai bukti cinta sejati, Taj Mahal memikat dunia dengan keindahan dan kemegahannya.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kolom ketiga -->
+            <div class="col-md-4">
+                <div class="card mx-2">
+                    <img src="tembokbesarcina.jpg" class="card-img-top" alt="TembokBesarCina">
+                    <div class="card-body flex-grow-1">
+                        <h5 class="card-title">Tembok Besar Cina: Benteng Raksasa yang Mengagumkan</h5>
+                        <p class="card-text">Erlin Haryanti | Posted on 13 March 2025</p>
+                        <p class="description">Benteng terpanjang di dunia ini melintasi pegunungan, menjadi bukti kejayaan militer Cina kuno.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Baris Kedua -->
+        <div class="row g-4 mt-3">
+            <!-- Kolom Pertama -->
+            <div class="col-md-4">
+                <div class="card mx-2">
+                    <img src="Borobudur.jpg" class="card-img-top" alt="Borobudur">
+                    <div class="card-body">
+                        <h5 class="card-title">Borobudur: Mahakarya Buddhis Terbesar di Dunia</h5>
+                        <p class="card-text">Erlin Haryanti | Posted on 13 March 2025</p>
+                        <p class="description">Candi Buddha terbesar di dunia ini kaya akan relief bersejarah dan panorama matahari terbit yang memukau.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kolom kedua -->
+            <div class="col-md-4">
+                <div class="card mx-2">
+                    <img src="Giza.jpg" class="card-img-top" alt="Giza">
+                    <div class="card-body">
+                        <h5 class="card-title">Piramida Giza: Misteri Megastruktur Kuno</h5>
+                        <p class="card-text">Erlin Haryanti | Posted on 13 March 2025</p>
+                        <p class="description">Struktur megah di Mesir ini menyimpan rahasia peradaban kuno yang masih membuat penasaran hingga kini.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Kolom ketiga -->
+            <div class="col-md-4">
+                <div class="card mx-2">
+                    <img src="Pisa.jpg" class="card-img-top" alt="Pisa">
+                    <div class="card-body">
+                        <h5 class="card-title">Menara Pisa: Kemiringan yang Mengundang Decak Kagum</h5>
+                        <p class="card-text">Erlin Haryanti | Posted on 13 March 2025</p>
+                        <p class="description">Menara miring ini menjadi daya tarik unik Italia, tetap kokoh berdiri meski condong selama berabad-abad.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
